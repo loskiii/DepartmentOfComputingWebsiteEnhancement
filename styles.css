@@ -44,6 +44,7 @@ body {
     padding: 25px 0;
     transition: padding .3s;
     background-color: #202020;
+    margin-bottom: 0px;
 }
 
 .header-area.sticky {
@@ -190,19 +191,19 @@ profile-photo .img {
 /*---------------------------About---------------------------*/
 
 .about-area {
-    padding-top: 130px;
+    
     background-color: #ffffff;
 }
 
 .about {
-    display: flex;
+    
     justify-content: space-between;
     align-items: center;
     margin-bottom: 50px;
 }
 
 .about-content {
-    flex-basis: 60%;
+    align-items: center;
 }
 
 .about-content h4 {
@@ -210,6 +211,8 @@ profile-photo .img {
     font-size: 40px;
     line-height: 70px;
     text-transform: capitalize;
+    align-items: center;
+    text-align: center;
 }
 
 .about-content ul {
