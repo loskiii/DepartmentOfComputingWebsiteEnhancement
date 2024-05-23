@@ -14,6 +14,9 @@ a {
 a:hover{
     color: blue;
 }
+.articles-section a{
+    text-decoration: underline;
+}
 
 ul {
     list-style: none;
@@ -40,12 +43,9 @@ body {
 .container {
     width: 1170px;
     margin: auto;
+    
 }
-
-
 /*---------------------------Navigation Bar---------------------------*/
-
-.navbar {}
 
 
 /*---------------------------Header---------------------------*/
@@ -217,6 +217,11 @@ profile-photo .img {
     margin-bottom: 20px;
     margin-top: 10px;
 }
+.about .articles-section{
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+}
 .about h4{
     text-align: center;
     color: #c12424;
@@ -298,9 +303,11 @@ profile-photo .img {
     margin-top: 50px;
     padding-top: 10px;
     padding-left: 30px;
+    z-index: 1;
 
 }
-.articles-section ol{
+.articles-section {
+    transition: transform 0.3s ease-in-out;
 
 }
 .articles-section .card, .projects-section .card {
@@ -350,6 +357,7 @@ profile-photo .img {
     border-radius: 5px;
     height: 400px;
     margin-bottom: 250px;
+    background-color: #ffffff;
 }
 
 .education-content .title {
