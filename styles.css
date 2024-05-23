@@ -164,6 +164,7 @@ profile-photo .img {
 .profile-text h5 {
     color: #e5e5e5;
     font-size: 14px;
+    
 }
 
 .profile-text h1 {
@@ -214,7 +215,9 @@ profile-photo .img {
     align-items: center;
     text-align: center;
 }
-
+.about-content h5 {
+    text-align: center;
+}
 .about-content ul {
     color: #000000;
     text-align: justify;
@@ -223,6 +226,9 @@ profile-photo .img {
 .about-content ul li {
     list-style-type: disc;
     margin-bottom: 10px;
+}
+.about-content p ol li a{
+    color: #000000;
 }
 
 .about-skills {
@@ -249,23 +255,25 @@ profile-photo .img {
 
 .btn-group {
     margin: 45px 0;
+    
 }
 
 .btn-group .btn {
     border-color: #d5d5d5;
-    color: #fff;
-    background-color: #146915;
+    color:darkgreen;
+    background-color: #e7eee7;
     padding: 12px 25px;
     margin: 5px 0;
     margin-right: 7px;
     border-radius: 30px;
     border: 2px solid #e5e5e5;
-    box-shadow: 0 10px 10px -8px rgb(0 0 0 / 78%);
+    
+}
+.btn:hover {
+    background-color: aqua
+
 }
 
-.btn.active {
-    border-color: #c12424;
-}
 
 
 /*---------------------------Education & Internship---------------------------*/
