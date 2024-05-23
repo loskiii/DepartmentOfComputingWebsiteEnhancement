@@ -27,8 +27,15 @@ body {
     font-family: 'Lexend', sans-serif;
     font-size: 16px;
     line-height: 24px;
-    background-color: #bdbdbd;
+    
+    
+    background-image: url('images/back3.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
+
 
 .container {
     width: 1170px;
@@ -227,6 +234,16 @@ profile-photo .img {
     background-color: #ffffff;
     padding: 10px;
 }
+.card {
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-10px); /* slight lift effect */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2); /* subtle shadow for depth */
+}
+
 .card h5{
     text-align: center;
     text-decoration: underline;
@@ -286,6 +303,20 @@ profile-photo .img {
 .articles-section ol{
 
 }
+.articles-section .card, .projects-section .card {
+    transition: all 0.3s ease-in-out;
+}
+
+.articles-section .card:hover {
+    transform: scale(1.05);
+    background-color: #f3f3f3; /* subtle background color change */
+}
+
+.projects-section .card:hover {
+    transform: scale(1.05);
+    border: 1px solid #000; /* add a border on hover */
+}
+
 
 /*---------------------------Button---------------------------*/
 
