@@ -6,6 +6,10 @@
     scroll-behavior: smooth;
 }
 
+
+
+
+
 a {
     text-decoration: none;
     color: #1d1c1c;
@@ -32,7 +36,7 @@ body {
     line-height: 24px;
     
     
-    background-image: url('images/back3.png');
+    background-image: url('images/back.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -204,6 +208,7 @@ profile-photo .img {
 
 
 /*---------------------------About---------------------------*/
+
 
 .about-area {
     
