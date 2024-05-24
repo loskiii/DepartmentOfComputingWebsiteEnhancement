@@ -233,6 +233,24 @@ profile-photo .img {
     display: flex;
     width: 100%;
 }
+.researchwork {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    align-items: stretch; 
+}
+
+.card {
+    flex: 1 1 300px; 
+    margin: 10px; 
+    display: flex;
+    flex-direction: column; 
+}
+
+.card .btn-group {
+    margin-top: auto; 
+}
+
 .card{
     border-radius: 10px;
     margin: 10px;
