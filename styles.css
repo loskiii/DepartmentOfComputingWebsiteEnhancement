@@ -6,20 +6,19 @@
     scroll-behavior: smooth;
 }
 
-
-
-
-
 a {
     text-decoration: none;
-    color: #1d1c1c;
+    color: #7ab5dc;
     transition: 0.3s;
 }
-a:hover{
-    color: blue;
+
+a:hover {
+    color: rgb(191, 30, 49);
 }
-.articles-section a{
-    text-decoration: underline;
+
+.articles-section a {
+    text-decoration: ;
+    color: #107ac0;
 }
 
 ul {
@@ -34,21 +33,18 @@ body {
     font-family: 'Lexend', sans-serif;
     font-size: 16px;
     line-height: 24px;
-    
-    
-    background-image: url('images/back.jpg');
+    background-color: white;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-
-
 .container {
     width: 1170px;
     margin: auto;
-    
 }
+
+
 /*---------------------------Navigation Bar---------------------------*/
 
 
@@ -75,7 +71,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     /* padding-bottom: 2rem; */
 }
 
@@ -129,7 +124,8 @@ body {
 .header ul li a:hover {
     color: #c12424;
 }
-.header ul li a{
+
+.header ul li a {
     color: #d5d5d5;
 }
 
@@ -182,7 +178,6 @@ profile-photo .img {
 .profile-text h5 {
     color: #e5e5e5;
     font-size: 14px;
-    
 }
 
 .profile-text h1 {
@@ -209,27 +204,27 @@ profile-photo .img {
 
 /*---------------------------About---------------------------*/
 
-
 .about-area {
-    
     background-color: #ffffff;
 }
 
 .about {
-    
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
     margin-top: 10px;
 }
-.about .articles-section{
-    background-color: #ffffff;
+
+.about .articles-section {
+    background-color: #bdbdbd;
     padding: 30px;
     border-radius: 10px;
+    margin-left: 0px;
 }
-.about h4{
+
+.about h4 {
     text-align: center;
-    color: #c12424;
+    color: #383838;
     font-size: 40px;
     text-decoration: underline;
 }
@@ -238,41 +233,45 @@ profile-photo .img {
     display: flex;
     width: 100%;
 }
+
 .researchwork {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around; 
-    align-items: stretch; 
+    justify-content: space-around;
+    align-items: stretch;
 }
 
 .card {
-    flex: 1 1 300px; 
-    margin: 10px; 
+    flex: 1 1 300px;
+    margin: 10px;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
 }
 
 .card .btn-group {
-    margin-top: auto; 
+    margin-top: auto;
 }
 
-.card{
+.card {
     border-radius: 10px;
     margin: 10px;
-    background-color: #ffffff;
+    background-color: #95cb48;
     padding: 10px;
 }
+
 .card {
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
 }
 
 .card:hover {
-    transform: translateY(-10px); /* slight lift effect */
-    box-shadow: 0 10px 20px rgba(0,0,0,0.2); /* subtle shadow for depth */
+    transform: translateY(-10px);
+    /* slight lift effect */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    /* subtle shadow for depth */
 }
 
-.card h5{
+.card h5 {
     text-align: center;
     text-decoration: underline;
 }
@@ -285,9 +284,11 @@ profile-photo .img {
     align-items: center;
     text-align: center;
 }
+
 .about-content h5 {
     text-align: center;
 }
+
 .about-content ul {
     color: #000000;
     text-align: justify;
@@ -297,6 +298,7 @@ profile-photo .img {
     list-style-type: disc;
     margin-bottom: 10px;
 }
+
 .about-content p ol li a {
     color: #000000;
 }
@@ -318,33 +320,43 @@ profile-photo .img {
     border-bottom: 0;
     padding-bottom: 0;
     margin-bottom: 0;
-}e
+}
+
+e
 /* articles */
-.articles-section{
+
+. {
     align-items: center;
-    background-color: #ffffff;
+    background-color: #bdbdbd;
     margin-top: 50px;
     padding-top: 10px;
     padding-left: 30px;
     z-index: 1;
-
 }
+
 .articles-section {
     transition: transform 0.3s ease-in-out;
-
 }
-.articles-section .card, .projects-section .card {
+
+.articles {
+    background-color: #bdbdbd;
+}
+
+.articles-section .card,
+.projects-section .card {
     transition: all 0.3s ease-in-out;
 }
 
 .articles-section .card:hover {
     transform: scale(1.05);
-    background-color: #f3f3f3; /* subtle background color change */
+    background-color: #f3f3f3;
+    /* subtle background color change */
 }
 
 .projects-section .card:hover {
     transform: scale(1.05);
-    border: 1px solid #000; /* add a border on hover */
+    border: 1px solid #000;
+    /* add a border on hover */
 }
 
 
@@ -352,25 +364,22 @@ profile-photo .img {
 
 .btn-group {
     margin: 45px 0;
-    
 }
 
 .btn-group .btn {
     border-color: #d5d5d5;
-    color:darkgreen;
+    color: darkgreen;
     background-color: #e7eee7;
     padding: 12px 25px;
     margin: 5px 0;
     margin-right: 7px;
     border-radius: 30px;
     border: 2px solid #e5e5e5;
-    
 }
+
 .btn:hover {
     background-color: aqua
-
 }
-
 
 
 /*---------------------------Education & Internship---------------------------*/
