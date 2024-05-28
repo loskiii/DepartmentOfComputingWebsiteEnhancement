@@ -8,12 +8,12 @@
 
 a {
     text-decoration: none;
-    color: #7ab5dc;
+    color: #020e16;
     transition: 0.3s;
 }
 
 a:hover {
-    color: rgb(191, 30, 49);
+    color: rgb(79, 174, 238);
 }
 
 .articles-section a {
@@ -40,21 +40,21 @@ body {
 }
 
 .container {
-    width: 1170px;
+    width: auto;
     margin: auto;
 }
 
 
 /*---------------------------Navigation Bar---------------------------*/
 
-
 /*---------------------------Header---------------------------*/
 
 .header-area {
     padding: 25px 0;
     transition: padding .3s;
-    background-color: #202020;
+    background-color: #0d8309;
     margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .header-area.sticky {
@@ -135,6 +135,84 @@ body {
     cursor: pointer;
     display: none;
 }
+
+.header-right {
+    display: flex;
+    align-items: center;
+    background-color: #c12424;
+    margin-left: -7.5%;
+    margin-right: -7.5%;
+    margin-top: 0%;
+}
+
+.header-right .additional-info {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header-right .additional-info li {
+    margin-right: 15px;
+}
+
+.header-right .additional-info li a {
+    text-decoration: none;
+    color: #000; /* Adjust color as needed */
+}
+
+.header-right,
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-right .navbar,
+.header-left .additional-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Change display to flex */
+}
+
+.header-right .navbar li,
+.header-left .additional-info li {
+    margin-right: 15px;
+}
+
+.header-right .navbar li a,
+.header-left .additional-info li a {
+    text-decoration: none;
+    color: #000; /* Adjust color as needed */
+    padding: 10px 15px;
+}
+
+.menu_icon {
+    display: none; /* Hide menu icon by default, you might want to show this on smaller screens */
+}
+
+@media (max-width: 768px) {
+    .header-right,
+    .header-left {
+        flex-direction: column;
+    }
+
+    .menu_icon {
+        display: block; /* Show menu icon on smaller screens */
+    }
+
+    .header-right .navbar,
+    .header-left .additional-info {
+        display: none; /* Hide navbar and additional info on smaller screens, can be toggled with JS */
+    }
+
+    .header-right .navbar li,
+    .header-left .additional-info li {
+        margin: 10px 0;
+    }
+}
+
+
 
 
 /*---------------------------HomePage--------------------------*/
@@ -255,7 +333,7 @@ profile-photo .img {
 .card {
     border-radius: 10px;
     margin: 10px;
-    background-color: #95cb48;
+    background-color: rgba(8, 199, 87, 0.397);
     padding: 10px;
 }
 
@@ -283,6 +361,7 @@ profile-photo .img {
     text-transform: capitalize;
     align-items: center;
     text-align: center;
+    
 }
 
 .about-content h5 {
@@ -322,7 +401,7 @@ profile-photo .img {
     margin-bottom: 0;
 }
 
-e
+
 /* articles */
 
 . {
