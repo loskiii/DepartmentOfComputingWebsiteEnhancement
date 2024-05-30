@@ -127,4 +127,29 @@ function dragElement(element) {
 }
 
 
+// Get all the product cards
+const productCards = document.querySelectorAll('.product-card');
+
+// Create an Intersection Observer instance
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      // Add the 'animate' class to the card when it enters the viewport
+      entry.target.classList.add('animate');
+    } else {
+      // Remove the 'animate' class when the card exits the viewport
+      entry.target.classList.remove('animate');
+    }
+  });
+}, {
+  rootMargin: '0px',
+  threshold: 0.5, // Trigger the animation when the card is 50% visible
+});
+
+// Observe each product card
+productCards.forEach((card) => {
+  observer.observe(card);
+});
+
+
 
