@@ -1129,3 +1129,63 @@ body {
         margin-bottom: 30px;
     }
 }
+
+
+
+
+
+/* Global Styles */
+body {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Hero Section Styles */
+  .hero {
+    display: flex;
+    align-items: center; /* Center items vertically if they are of different heights */
+    justify-content: space-between; /* Space items evenly across the available width */
+    background-color: #fff;
+    padding: 40px 60px;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .hero-content {
+    max-width: 60%; /* Limit the width of the text area */
+    margin-left: 20px; /* Add some space between the text and the image */
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .learn-more-btn {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 28px;
+    font-size: 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .learn-more-btn:hover {
+    background-color: #333;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+    /* Animation properties */
+
+  /* Add animation when image becomes visible */
+ 
+  
