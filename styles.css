@@ -1136,7 +1136,7 @@ body {
 
 /* Global Styles */
 body {
-    font-family: 'Playfair Display', serif;
+    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -1188,4 +1188,60 @@ body {
 
   /* Add animation when image becomes visible */
  
+  } 
+  /* Supervision Section Styles */
+.supervision-section {
+    padding: 40px;
+    background-color: #f2eee7;
+  }
+  
+  .supervision-section h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .supervision-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+  }
+  
+  .supervisor-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .supervisor-icon {
+    background: url('path-to-supervisor-icon.svg') no-repeat center;
+    background-size: contain;
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+  }
+  
+  .supervision-card h3 {
+    font-size: 1.2rem;
+    flex: 2;
+    margin: 0;
+    color: #333;
+  }
+  
+  .supervision-card p {
+    flex: 1;
+    margin: 0 10px;
+    color: #555;
+  }
   
