@@ -152,4 +152,34 @@ productCards.forEach((card) => {
 });
 
 
+// Scrolling effects
+// Get the supervision section element
+// const supervisionSection = document.querySelector('.supervision-section');
+
+// Get all the supervision card elements
+// const supervisionCards = document.querySelectorAll('.supervision-card');
+
+// Get the vertical text element
+// const verticalText = document.querySelector('.vertical-text');
+
+// Add an event listener to the window's scroll event
+// window.addEventListener('scroll', () => {
+  // Get the current scroll position
+  // const scrollPosition = window.pageYOffset;
+
+  // Calculate the distance from the top of the section
+  // const sectionTop = supervisionSection.offsetTop;
+  // const sectionHeight = supervisionSection.offsetHeight;
+
+  // Check if the section is in view
+  // if (scrollPosition >= sectionTop && scrollPosition <= sectionTop + sectionHeight) {
+    // Apply the scrolling effect
+//     supervisionCards.forEach((card, index) => {
+//       card.style.transform = `translateY(${(scrollPosition - sectionTop) * 0.2 * (index + 1)}px)`;
+//     });
+
+//     verticalText.style.transform = `translateY(${(scrollPosition - sectionTop) * 0.1}px)`;
+//   }
+// });
+
 
