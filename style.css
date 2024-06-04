@@ -1,0 +1,168 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: 'Lexend', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #ffffff;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+.pagenavigation {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    border-bottom: 2px solid #999494;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+.pagenavigation a {
+    color: #000;
+}
+
+.right {
+    margin-right: 30px;
+    display: flex;
+}
+
+.left {
+    margin-left: 30px;
+    display: flex;
+}
+
+.middle {
+    display: flex;
+}
+
+.left:hover {
+    background-color: #e4e4e4;
+}
+
+.middle:hover {
+    background-color: #e4e4e4;
+}
+
+.right:hover {
+    background-color: #e4e4e4;
+}
+
+.icon {
+    align-items: center;
+    padding-top: 5%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/---------------------------Header---------------------------/
+
+.header-area {
+    padding: 25px 0;
+    transition: padding .3s;
+    background-color: #202020;
+}
+
+.header-area.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    background-color: #202020;
+    padding: 5px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-bottom: 2rem; */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.logo .fa-bolt {
+    color: #c12424;
+    font-size: 19.5px;
+    position: absolute;
+    top: 60%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.signature {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.header ul li:first-child {
+    margin-right: auto;
+}
+
+.header ul {
+    display: flex;
+    align-items: center;
+}
+
+.header ul li {
+    margin: 0 15px;
+}
+
+.header ul li a {
+    text-transform: capitalize;
+    display: block;
+}
+
+.header ul li a.active {
+    color: #c12424;
+}
+
+.header ul li a:hover {
+    color: #c12424;
+}
+
+.header .menu_icon {
+    color: #c12424;
+    font-size: 18px;
+    cursor: pointer;
+    display: none;
+}
+

@@ -17,7 +17,7 @@ a:hover {
 }
 
 .articles-section a {
-    text-decoration: ;
+    text-decoration: none;
     color: #107ac0;
 }
 
@@ -43,171 +43,7 @@ body {
     background-repeat: no-repeat;
 }
 
-.container {
-    width: auto;
-    margin: auto;
-}
 
-
-/*---------------------------Navigation Bar---------------------------*/
-.top-bar {
-    background-color: #b51212;
-    color: white;
-}
-
-.top-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    font-family: poppins;
-}
-
-.top-nav ul {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.top-nav ul li {
-    margin: 0 10px;
-}
-
-.top-nav ul li a {
-    color: black;
-    text-decoration: none;
-    font-size: 14px;
-}
-.social-icons {
-    margin: 0px 100px 0px 10px;
-    
-}
-
-.social-icons a {
-    color: green;
-    margin-left: 10px;
-    text-decoration: none;
-    font-size: 16px;
-}
-.social-icons:hover {
-    color:white;
-}
-/*---------------------------Header---------------------------*/.research-section {
-  display: flex;
-  align-items: flex-start;
-  padding: 60px;
-}
-
-.vertical-text {
-    
-    text-orientation: upright;
-    font-size: ;
-    font-weight: 400;
-    color: #000;
-    margin-right: 40px;
-    text-align: center;
-    
-  }
-  .vertical-text p{
-    font-size: 60px;
-  }
-  .more {
-    align-items: flex-end;
-    margin-left: 85%;
-  }
-  /* .vertical-text2 {
-    
-    text-orientation: mixed;
-    font-size: 6rem;
-    font-weight: 700;
-    color: #000;
-    margin-right: 40px;
-    text-align: center;
-    
-  } */
-/* Reset styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-vt2{
-    margin-right:70%;
-}
-
-/* Header styles */
-header {
-    background-color: #8ac441;
-    color: #1b1a1a;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-}
-
-.logo img {
-    max-height: 50px;
-}
-
-nav ul {
-    display: flex;
-    list-style-type: none;
-}
-
-nav li {
-    margin-left: 20px;
-}
-
-nav a {
-    color: #fff;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-nav a:hover {
-    color: #ccc;
-}
-
-/* Animated hover effect */
-nav li::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 2px;
-    background-color: #fff;
-    transition: width 0.3s ease;
-}
-
-nav li:hover::after {
-    width: 100%;
-}
-
-
-  .main-title {
-    font-size: 2.5rem;
-    line-height: 1.2;
-    margin-bottom: 10px;
-  }
-  
-  .sub-title {
-    font-size: 1.1rem;
-    line-height: 1.5;
-    margin-bottom: 30px;
-  }
-  
-  
- 
-
-/* Vertical Research Text */
-.vertical-text {
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
-    font-size: 6rem;
-    font-weight: 700;
-    color: #000;
-    margin-right: 40px;
-  }
 /* Global Styles */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
 
@@ -279,7 +115,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
     overflow: hidden;
-    max-width: 300px;
+    max-width: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -391,14 +227,14 @@ body {
     padding-top: 23px;
     
 }
-. {
+/* . {
     align-items: center;
     background-color: #bdbdbd;
     margin-top: 10px;
     padding-top: 10px;
     padding-left: 30px;
     z-index: 1;
-}
+} */
 
 .articles-section {
     transition: transform 0.3s ease-in-out;
@@ -619,7 +455,7 @@ body {
 .about_container {
     max-width: 100%;
     margin-top: 0%;
-    margin: 20px auto;
+    margin: 0px auto;
     padding: 20px;
     text-align: center;
     display: inline-flexbox;
@@ -633,13 +469,16 @@ h1 {
     text-decoration: underline;
 }
 
+
+
 .a_card {
     display: inline-block;
     width: 30%;
     margin: 10px;
     padding: 20px;
     border-radius: 10px;
-    border: 0.5px solid rgb(224, 219, 219); /* Added border property */
+    border: 0.5px solid rgb(224, 219, 219);
+    height: 200px; /* Added border property */
     
     
     /* transition: box-shadow 0.3s ease-in-out; */
@@ -662,19 +501,22 @@ h1 {
 .a_card:hover {
     /* box-shadow: 0 4px 8px rgba(69, 211, 247, 0.2); */
     
-    color: white;
+    color: black;
 }
 #card-3:hover {
     background-color: #35e492;
+    color: #000;
     
     }
 #card-2:hover {
 background-color: #35e492;
+color: #000;
 
 }
 
 #card-1:hover {
     background-color: #35e492;
+    color: #000;
     
     }
 .a_card h2 {
@@ -1065,19 +907,7 @@ body {
     margin-bottom: 20px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;<div class="container">
-    <div class="card">
-        <div class="icon master-icon"></div>
-        <h2>Master's research</h2>
-        <p>Describe the product here. Include important features, pricing, and other relevant info. Consider adding an image or video of the product.</p>
-    </div>
-    <br>
-    <div class="card">
-        <div class="icon phd-icon"></div>
-        <h2>PhD research</h2>
-        <p>Describe the product here. Include important features, pricing, and other relevant info. Consider adding an image or video of the product.</p>
-    </div>
-</div>
+    
 }
 
 .master-icon {
@@ -1118,8 +948,8 @@ body {
 .r_section {
     text-align: center;
     width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 10px;
 }
 
 .r_section h1 {
@@ -1133,7 +963,7 @@ body {
     display: flex;
     gap: 20px;
     justify-content: center;
-    margin-top:20px ;
+    margin-top:0px ;
     background-color: lightgrey;
 }
 
@@ -1143,8 +973,8 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    width: 100%;
-    max-width: 300px;
+    width: 450px;
+    height: 350px;
     text-align: center;
     transition: transform 0.3s, background-color 0.3s, z-index 0.3s;
     position: relative;
@@ -1158,8 +988,8 @@ body {
 }
 
 .r_card img {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
 }
 
 .r_card h3 {
@@ -1217,6 +1047,6 @@ body {
 }
 
 .hero p {
-    font-size: 1rem;
-    margin: 10px 0 20px 0;
+    font-size: 1.2rem;
+    margin: 25px 0 20px 0;
 }
