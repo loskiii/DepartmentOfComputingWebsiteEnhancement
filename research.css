@@ -504,18 +504,18 @@ h1 {
     color: black;
 }
 #card-3:hover {
-    background-color: #35e492;
+    background-color: #8ac441;
     color: #000;
     
     }
 #card-2:hover {
-background-color: #35e492;
+background-color: #8ac441;
 color: #000;
 
 }
 
 #card-1:hover {
-    background-color: #35e492;
+    background-color: #8ac441;
     color: #000;
     
     }
@@ -633,126 +633,6 @@ footer {
     text-decoration: underline;
 }
 
-/*---------------------------Footer---------------------------*/
-
-/* 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'PT Sans';
-    font-size: 20px;
-    line-height: 26px;
-    color: #484848;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.content {
-    flex: 1;
-}
-
-
-.footer {
-    background-color: #ceeee4;
-    color: #333;
-    padding: 20px;
-}
-
-.footer-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    max-width: 1200px;
-    margin: 0 auto;
-    flex-wrap: wrap;
-    border-radius: 8px;
-    padding: 20px;
-    background-color: #fff;
-}
-
-.footer-column {
-    flex: 1;
-    margin: 10px;
-    min-width: 200px;
-}
-
-.footer-column h4 {
-    margin-bottom: 10px;
-}
-
-.footer-column ul {
-    list-style-type: none;
-}
-
-.footer-column li {
-    margin-bottom: 5px;
-}
-
-.footer-column a {
-    color: #333;
-    text-decoration: none;
-}
-
-.footer-column a:hover {
-    text-decoration: underline;
-}
-
-.sign-up-btn {
-    background-color: #fff;
-    border: 1px solid #333;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 4px;
-}
-
-.sign-up-btn:hover {
-    background-color: #333;
-    color: #fff;
-}
-
-.footer-bottom {
-    text-align: center;
-    padding: 20px 10px;
-    font-size: 14px;
-}
-
-.footer-bottom p {
-    margin-bottom: 10px;
-}
-
- */
-
-
-/* Global Styles */
-
-
-
-
-
-
-
 
 
 
@@ -847,16 +727,6 @@ body {
 
 
 
-
-  /*Research */
-  /* body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-} */
 
 .containerr {
     display: flex;
