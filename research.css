@@ -461,6 +461,7 @@ body {
     display: inline-flexbox;
     background-color: #f1f0f0;
    
+   
 }
 
 h1 {
@@ -473,12 +474,13 @@ h1 {
 
 .a_card {
     display: inline-block;
+    
     width: 30%;
-    margin: 10px;
+    margin:0 10px;
     padding: 20px;
     border-radius: 10px;
     border: 0.5px solid rgb(224, 219, 219);
-    height: 200px; /* Added border property */
+    min-height: 200px; /* Added border property */
     
     
     /* transition: box-shadow 0.3s ease-in-out; */
