@@ -48,7 +48,7 @@ body {
     margin: auto;
 }
 
-
+/*  */
 /*---------------------------Navigation Bar---------------------------*/
 .top-bar {
     background-color: #b51212;
@@ -240,18 +240,18 @@ nav li:hover::after {
     background-color: #333;
   }
   
-.hero-image {
+/* .hero-image {
   max-width: 50%;
   border-radius: 50%;
   overflow: hidden;
-}
-
+} */
+/* 
 .hero-image img {
   width: 100%;
   height: auto;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
  
-}
+} */
 
 /* Vertical Research Text */
 .vertical-text {
@@ -318,12 +318,12 @@ body {
     
 }
 
-.hero-image img {
+/* .hero-image img {
   max-width: 100%;
   height: auto;
   border-radius: 50%;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
+} */
 
 /* Research Section Styles */
 .research-section {
@@ -1415,12 +1415,12 @@ body {
     background-color: #333;
   }
   
-  .hero-image img {
+  /* .hero-image img {
     max-width: 100%;
     height: auto;
     border-radius: 50%;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    
+     */
     /* Animation properties */
 
   /* Add animation when image becomes visible */
@@ -1549,7 +1549,8 @@ body {
     margin-bottom: 20px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;<div class="container">
+    background-size: contain;
+    <div class="container">
     <div class="card">
         <div class="icon master-icon"></div>
         <h2>Master's research</h2>

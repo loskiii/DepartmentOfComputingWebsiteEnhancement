@@ -467,7 +467,7 @@ body {
 h1 {
     font-size: 2.5em;
     margin-bottom: 20px;
-    text-decoration: underline;
+    
 }
 
 
@@ -649,6 +649,7 @@ footer {
     padding: 20px;
     background-color: white;
     margin-bottom: 30px;
+    
 }
 
 .supervised-projects-section {
@@ -686,7 +687,7 @@ footer {
 }
 
 .project-item:hover {
-    background-color: #e6f7ff;
+    background-color:rgb(194, 235, 245) ;
     transform: scale(1.02);
 }
 
@@ -875,7 +876,7 @@ footer {
 }
 
 .learn-more-btn {
-    background-color: #007bff;
+    background-color: #009edf;
     color: #fff;
     border: none;
     border-radius: 20px;
@@ -914,10 +915,91 @@ footer {
     font-size: 2.5rem;
     font-weight: bold;
     display: block;
-    text-decoration: underline;
+    
 }
 
 .hero p {
     font-size: 1.2rem;
     margin: 25px 0 20px 0;
+    align-items: center;
 }
+
+
+.hero-content {
+    display: flex;
+    align-items: center;
+}
+.hero-image {
+    width: 300px; 
+    height: 300px; 
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hero-image:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.5);
+}
+.hero-text {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* Awards and honors */
+.awards-honors {
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: white; /* Customize the background color as needed */
+}
+
+.awards-honors h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.awards-honors ul {
+    list-style: none;
+    padding: 0;
+}
+
+.awards-honors li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;  /* Line separator */
+}
+
+.awards-honors li span {
+    display: block;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+
+
+  
+
+
+
+
+
+.phd-button {
+    background-color:#adff2f ;
+    
+    
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 1.5px;
+}
+
