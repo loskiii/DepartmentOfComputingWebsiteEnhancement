@@ -480,7 +480,7 @@ h1 {
     padding: 20px;
     border-radius: 10px;
     border: 0.5px solid rgb(224, 219, 219);
-    min-height: 200px; /* Added border property */
+   height: fit-content;
     
     
     /* transition: box-shadow 0.3s ease-in-out; */
