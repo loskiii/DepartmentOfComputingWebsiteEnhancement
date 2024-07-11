@@ -32,6 +32,8 @@ body {
     font-family: 'Playfair Display', serif;
     margin: 0;
     padding: 0;
+    height: 100%;
+    width: 100%;
   }
 body {
     
@@ -474,13 +476,13 @@ h1 {
 
 .a_card {
     display: inline-block;
-    
+    height: 150px;
     width: 30%;
     margin:0 10px;
     padding: 20px;
     border-radius: 10px;
     border: 0.5px solid rgb(224, 219, 219);
-    min-height: 200px; /* Added border property */
+   /* height: fit-content; */
     
     
     /* transition: box-shadow 0.3s ease-in-out; */
@@ -640,7 +642,6 @@ footer {
 
 
   /* Supervision Section Styles */
-
   .supervised-projects-container {
     display: flex;
     justify-content: center;
@@ -649,6 +650,10 @@ footer {
     padding: 20px;
     background-color: white;
     margin-bottom: 30px;
+    height: 100%;
+    width: 100%;
+
+    
     
 }
 
@@ -659,6 +664,9 @@ footer {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
 }
 
 .supervised-projects-container h1 {
@@ -992,7 +1000,7 @@ footer {
 
 
 .phd-button {
-    background-color:#adff2f ;
+    background-color:#8ac441 ;
     
     
     border: none;
