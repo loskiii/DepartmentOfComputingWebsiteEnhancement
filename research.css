@@ -455,6 +455,7 @@ body {
 
 .about_container {
     text-align: center;
+    background-color: #ddd9d9;
     
 }
 
@@ -641,7 +642,7 @@ footer {
 }
 
 .supervised-projects-container h1 {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     font-weight: bold;
     margin-bottom: 20px;
     
@@ -934,8 +935,12 @@ footer {
     width: 100%;
     margin: 0 auto;
     background-color: white; /* Customize the background color as needed */
+    align-items: center;
 }
-
+.awards-honors button {
+    justify-items: center;
+    text-align: center;
+}
 .awards-honors h2 {
     font-size: 2rem;
     text-align: center;
@@ -972,13 +977,15 @@ footer {
 
 .phd-button {
     background-color:#8ac441 ;
-    
-    
+    justify-content: center;
+   
+    align-items: center;
     border: none;
     border-radius: 20px;
     padding: 10px 20px;
     cursor: pointer;
     transition: background-color 0.3s;
     margin-top: 1.5px;
+    align-self: center;
 }
 
