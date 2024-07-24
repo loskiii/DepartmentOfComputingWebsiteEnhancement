@@ -453,83 +453,54 @@ body {
 
 
 
-
 .about_container {
-    max-width: 100%;
-    margin-top: 0%;
-    margin: 0px auto;
-    padding: 20px;
     text-align: center;
-    display: inline-flexbox;
-    background-color: #f1f0f0;
-   
-   
-}
-
-h1 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
     
 }
 
-
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
 
 .a_card {
-    display: inline-block;
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
     height: 150px;
-    width: 30%;
-    margin:0 10px;
     padding: 20px;
     border-radius: 10px;
     border: 0.5px solid rgb(224, 219, 219);
-   /* height: fit-content; */
-    
-    
-    /* transition: box-shadow 0.3s ease-in-out; */
-}
-
-#card-1 {
-    background-color: white;
-   
-}
-
-#card-2 {
-    background-color: white;
-    
-}
-
-#card-3 {
-    background-color: white;
-}
-
-.a_card:hover {
-    /* box-shadow: 0 4px 8px rgba(69, 211, 247, 0.2); */
-    
-    color: black;
-}
-#card-3:hover {
-    background-color: #8ac441;
-    color: #000;
-    
-    }
-#card-2:hover {
-background-color: #8ac441;
-color: #000;
-
-}
-
-#card-1:hover {
-    background-color: #8ac441;
-    color: #000;
-    
-    }
-.a_card h2 {
-    font-size: 2em;
+    background-color:white;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .a_card p {
     font-size: 1em;
     line-height: 1.5em;
+}
+
+.a_card:hover {
+    color: black;
+}
+
+#card-1:hover,
+#card-2:hover,
+#card-3:hover {
+    background-color: #8ac441;
+    color: black;
+}
+
+.learn-more-btn {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    background: #8ac441;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
 }
 
 
