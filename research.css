@@ -892,9 +892,10 @@ footer {
 }
 
 .hero-title span {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     font-weight: bold;
     display: block;
+    color: #009edf;
     
 }
 
@@ -989,3 +990,23 @@ footer {
     align-self: center;
 }
 
+
+
+
+
+
+.centre {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.namee {
+    color: #009edf
+    ;
+}
+
+.category {
+    color: #c12424;
+}
