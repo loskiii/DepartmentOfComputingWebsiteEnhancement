@@ -28,13 +28,14 @@ ul {
 img {
     max-width: 100%;
 }
+
 body {
     font-family: 'Playfair Display', serif;
     margin: 0;
     padding: 0;
-  }
+}
+
 body {
-    
     font-size: 16px;
     line-height: 24px;
     background-color: white;
@@ -48,8 +49,12 @@ body {
     margin: auto;
 }
 
+
 /*  */
+
+
 /*---------------------------Navigation Bar---------------------------*/
+
 .top-bar {
     background-color: #b51212;
     color: white;
@@ -79,9 +84,9 @@ body {
     text-decoration: none;
     font-size: 14px;
 }
+
 .social-icons {
     margin: 0px 100px 0px 10px;
-    
 }
 
 .social-icons a {
@@ -90,30 +95,36 @@ body {
     text-decoration: none;
     font-size: 16px;
 }
-/*---------------------------Header---------------------------*/.research-section {
-  display: flex;
-  align-items: flex-start;
-  padding: 60px;
+
+
+/*---------------------------Header---------------------------*/
+
+.research-section {
+    display: flex;
+    align-items: flex-start;
+    padding: 60px;
 }
 
 .vertical-text {
-    
     text-orientation: upright;
     font-size: ;
     font-weight: 400;
     color: #000;
     margin-right: 40px;
     text-align: center;
-    
-  }
-  .vertical-text p{
+}
+
+.vertical-text p {
     font-size: 60px;
-  }
-  .more {
+}
+
+.more {
     align-items: flex-end;
     margin-left: 85%;
-  }
-  /* .vertical-text2 {
+}
+
+
+/* .vertical-text2 {
     
     text-orientation: mixed;
     font-size: 6rem;
@@ -123,17 +134,23 @@ body {
     text-align: center;
     
   } */
+
+
 /* Reset styles */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-vt2{
-    margin-right:70%;
+
+vt2 {
+    margin-right: 70%;
 }
 
+
 /* Header styles */
+
 header {
     background-color: #8ac441;
     color: #1b1a1a;
@@ -166,7 +183,9 @@ nav a:hover {
     color: #ccc;
 }
 
+
 /* Animated hover effect */
+
 nav li::after {
     content: '';
     display: block;
@@ -180,53 +199,55 @@ nav li:hover::after {
     width: 100%;
 }
 
+
 /*---------------------------HomePage--------------------------*/
+
 .hero {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #fff;
-    
-  }
-  
-  .hero-content {
+}
+
+.hero-content {
     max-width: 50%;
     margin-right: 20px;
-  }
-  .hero-content {
+}
+
+.hero-content {
     max-width: 50%;
     padding-right: 40px;
-  }
-  .hero-content p {
+}
+
+.hero-content p {
     font-size: 1.2rem;
     line-height: 1.6;
     margin-bottom: 20px;
-  }
-  
-  .main-title {
+}
+
+.main-title {
     font-size: 2.5rem;
     line-height: 1.2;
     margin-bottom: 10px;
-  }
-  
-  .sub-title {
+}
+
+.sub-title {
     font-size: 1.1rem;
     line-height: 1.5;
     margin-bottom: 30px;
-  }
-  
-  
-  .hero-content h1 {
+}
+
+.hero-content h1 {
     font-size: 2.5re;
     margin-bottom: 20px;
-  }
-  
-  .hero-content p {
+}
+
+.hero-content p {
     font-size: 1.2rem;
     margin-bottom: 30px;
-  }
-  
-  .learn-more-btn {
+}
+
+.learn-more-btn {
     background-color: #000;
     color: #fff;
     border: none;
@@ -234,17 +255,20 @@ nav li:hover::after {
     font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
-  }
-  
-  .learn-more-btn:hover {
+}
+
+.learn-more-btn:hover {
     background-color: #333;
-  }
-  
+}
+
+
 /* .hero-image {
   max-width: 50%;
   border-radius: 50%;
   overflow: hidden;
 } */
+
+
 /* 
 .hero-image img {
   width: 100%;
@@ -253,7 +277,9 @@ nav li:hover::after {
  
 } */
 
+
 /* Vertical Research Text */
+
 .vertical-text {
     writing-mode: vertical-rl;
     text-orientation: mixed;
@@ -261,62 +287,67 @@ nav li:hover::after {
     font-weight: 700;
     color: #000;
     margin-right: 40px;
-  }
-/* Global Styles */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
-
-body {
-  font-family: 'Playfair Display', serif;
-  margin: 0;
-  padding: 0;
 }
 
+
+/* Global Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+body {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+}
+
+
 /* Hero Section Styles */
+
 .hero-section {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #fff;
-  padding: 60px;
-  border-bottom: 2px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 60px;
+    border-bottom: 2px solid #ddd;
 }
 
 .hero-content {
-  max-width: 50%;
+    max-width: 50%;
 }
 
 .hero-content h1 {
-  font-size: 3rem;
-  font-weight: 700;
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
 }
 
 .hero-content p {
-  font-size: 1.2rem;
-  margin-bottom: 30px;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
 }
 
 .learn-more-btn {
-  display: inline-block;
-  background-color: #000;
-  color: #fff;
-  text-decoration: none;
-  padding: 12px 24px;
-  font-size: 1rem;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
 }
 
 .learn-more-btn:hover {
-  background-color: #333;
+    background-color: #333;
 }
+
 .hero {
     display: flex;
     align-items: center;
-    
 }
+
 
 /* .hero-image img {
   max-width: 100%;
@@ -325,91 +356,107 @@ body {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 } */
 
-/* Research Section Styles */
-.research-section {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 40px;
-  padding: 60px;
-  background-color: #35e492;
-  height: 350px;
 
+/* Research Section Styles */
+
+.research-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    padding: 60px;
+    background-color: #35e492;
+    height: 350px;
 }
+
+
 /* Animations */
+
+
 /* Animation for the section */
-.supervision-section card-content{
+
+.supervision-section card-content {
     animation: fadeIn 1s ease-in-out;
-  }
-  
-  /* Animation for the vertical text */
-  .vertical-text {
+}
+
+
+/* Animation for the vertical text */
+
+.vertical-text {
     animation: slideInLeft 1s ease-in-out;
-  }
-  
-  /* Animation for the supervision cards */
-  .supervision-card {
+}
+
+
+/* Animation for the supervision cards */
+
+.supervision-card {
     animation: fadeInUp 0.5s ease-in-out;
     animation-delay: calc(0.2s * var(--index));
-  }
-  
-  /* Animation for the supervisor info */
-  .supervisor-info {
+}
+
+
+/* Animation for the supervisor info */
+
+.supervisor-info {
     animation: zoomIn 0.5s ease-in-out;
-  }
-  
-  /* Keyframe animations */
-  @keyframes fadeIn {
+}
+
+
+/* Keyframe animations */
+
+@keyframes fadeIn {
     0% {
-      opacity: 0;
+        opacity: 0;
     }
     100% {
-      opacity: 1;
+        opacity: 1;
     }
-  }
-  
-  @keyframes slideInLeft {
+}
+
+@keyframes slideInLeft {
     0% {
-      transform: translateX(-50px);
-      opacity: 0;
+        transform: translateX(-50px);
+        opacity: 0;
     }
     100% {
-      transform: translateX(0);
-      opacity: 1;
+        transform: translateX(0);
+        opacity: 1;
     }
-  }
-  
-  @keyframes fadeInUp {
+}
+
+@keyframes fadeInUp {
     0% {
-      transform: translateY(50px);
-      opacity: 0;
+        transform: translateY(50px);
+        opacity: 0;
     }
     100% {
-      transform: translateY(0);
-      opacity: 1;
+        transform: translateY(0);
+        opacity: 1;
     }
-  }
-  
-  @keyframes zoomIn {
+}
+
+@keyframes zoomIn {
     0% {
-      transform: scale(0.5);
-      opacity: 0;
+        transform: scale(0.5);
+        opacity: 0;
     }
     100% {
-      transform: scale(1);
-      opacity: 1;
+        transform: scale(1);
+        opacity: 1;
     }
-  }
-  
+}
+
+
 /* Research Section Styles */
+
 .research-section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(2, 1fr);
     gap: 40px;
     padding: 60px;
-  }
-  
-  .vertical-text {
+}
+
+.vertical-text {
     grid-row: 1 / 3;
     writing-mode: inherit;
     text-orientation: mixed;
@@ -417,40 +464,37 @@ body {
     font-weight: 700;
     color: #000;
     margin-right: 40px;
-  }
-  
-  .section-header {
+}
+
+.section-header {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-  }
-  
-  .section-header h2 {
+}
+
+.section-header h2 {
     font-size: 6rem;
     font-weight: 700;
     margin-bottom: 10px;
     text-align: center;
-  }
-  
-  .section-header p {
-    font-size: 1.1rem;
-    line-height: 1.5;
-  }
-  
-
-.section-header h2 {
-  font-size: 4rem;
-  font-weight: 700;
-  margin-bottom: 20px;
 }
 
 .section-header p {
-  font-size: 1.1rem;
-  align-content: normal;
+    font-size: 1.1rem;
+    line-height: 1.5;
 }
-  
-  
-  
+
+.section-header h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.section-header p {
+    font-size: 1.1rem;
+    align-content: normal;
+}
+
 .FirstElement {
     display: flex;
     justify-content: space-around;
@@ -515,105 +559,113 @@ profile-photo .img {
 
 
 /*---------------------------About---------------------------*/
+
+
 /* Product Section Styles */
+
 .product-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
     padding: 60px;
-  }
-  
-  .product-card {
+}
+
+.product-card {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-  }
-  
-  .product-header {
+}
+
+.product-header {
     background-color: #000;
     color: #fff;
     padding: 20px;
     text-align: center;
-  }
-  
-  .product-header h2 {
+}
+
+.product-header h2 {
     font-size: 3rem;
     font-weight: 700;
     margin: 0;
-  }
-  
-  .product-content {
+}
+
+.product-content {
     padding: 30px;
-  }
-  
-  .product-content p {
+}
+
+.product-content p {
     font-size: 1.1rem;
     line-height: 1.5;
     margin: 0;
-  }
+}
+
+
 /* Product Section Styles */
+
 .product-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
     padding: 60px;
-  }
-  
-  .product-card {
+}
+
+.product-card {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    opacity: 0; /* Initially set the opacity to 0 */
-    transform: scale(0.9); /* Initially set the scale to 0.9 */
-    animation: fade-in-scale 0.5s ease-in-out forwards; /* Apply the animation */
-  }
-  
-  @keyframes fade-in-scale {
+    opacity: 0;
+    /* Initially set the opacity to 0 */
+    transform: scale(0.9);
+    /* Initially set the scale to 0.9 */
+    animation: fade-in-scale 0.5s ease-in-out forwards;
+    /* Apply the animation */
+}
+
+@keyframes fade-in-scale {
     0% {
-      opacity: 0;
-      transform: scale(0.9);
+        opacity: 0;
+        transform: scale(0.9);
     }
     100% {
-      opacity: 1;
-      transform: scale(1);
+        opacity: 1;
+        transform: scale(1);
     }
-  }
-  
-  .product-card:nth-child(2) {
-    animation-delay: 0.2s; /* Add a delay for the second card */
-  }
-  
-  .product-card:nth-child(3) {
-    animation-delay: 0.4s; /* Add a delay for the third card */
-  }
-  
-  .product-header {
+}
+
+.product-card:nth-child(2) {
+    animation-delay: 0.2s;
+    /* Add a delay for the second card */
+}
+
+.product-card:nth-child(3) {
+    animation-delay: 0.4s;
+    /* Add a delay for the third card */
+}
+
+.product-header {
     background-color: #155306;
     color: #fff;
     padding: 20px;
     text-align: center;
-  }
-  
-  .product-header h2 {
+}
+
+.product-header h2 {
     font-size: 3rem;
     font-weight: 700;
     margin: 0;
-  }
-  
-  .product-content {
+}
+
+.product-content {
     padding: 30px;
-  }
-  
-  .product-content p {
+}
+
+.product-content p {
     font-size: 1.1rem;
     line-height: 1.5;
     margin: 0;
-  }
-  
-  
-
+}
 
 .about-area {
     background-color: #ffffff;
@@ -663,6 +715,7 @@ profile-photo .img {
     display: flex;
     flex-direction: column;
 }
+
 .card {
     background-color: #fff;
     border: 1px solid #ddd;
@@ -692,8 +745,10 @@ profile-photo .img {
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
 }
+
 .card-content {
-    margin-bottom: 40px; /* Space for the card number */
+    margin-bottom: 40px;
+    /* Space for the card number */
 }
 
 .card h2 {
@@ -734,7 +789,6 @@ profile-photo .img {
     text-transform: capitalize;
     align-items: center;
     text-align: center;
-    
 }
 
 .about-content h5 {
@@ -776,11 +830,12 @@ profile-photo .img {
 
 
 /* articles */
-.witty{
+
+.witty {
     background-color: #35e492;
     padding-top: 23px;
-    
 }
+
 . {
     align-items: center;
     background-color: #bdbdbd;
@@ -1002,17 +1057,12 @@ profile-photo .img {
     border-color: #c12424;
 }
 
-
-
-
-
 .about_container {
     max-width: 1200px;
     margin: 20px auto;
     padding: 20px;
     text-align: center;
     display: inline-flexbox;
-   
 }
 
 h1 {
@@ -1026,20 +1076,17 @@ h1 {
     margin: 10px;
     padding: 20px;
     border-radius: 10px;
-    border: 0.5px solid rgb(224, 219, 219); /* Added border property */
-    
-    
+    border: 0.5px solid rgb(224, 219, 219);
+    /* Added border property */
     /* transition: box-shadow 0.3s ease-in-out; */
 }
 
 #card-1 {
     background-color: white;
-   
 }
 
 #card-2 {
     background-color: white;
-    
 }
 
 #card-3 {
@@ -1048,22 +1095,21 @@ h1 {
 
 .a_card:hover {
     /* box-shadow: 0 4px 8px rgba(69, 211, 247, 0.2); */
-    
     color: white;
 }
+
 #card-3:hover {
     background-color: #35e492;
-    
-    }
-#card-2:hover {
-background-color: #35e492;
+}
 
+#card-2:hover {
+    background-color: #35e492;
 }
 
 #card-1:hover {
     background-color: #35e492;
-    
-    }
+}
+
 .a_card h2 {
     font-size: 2em;
 }
@@ -1072,13 +1118,6 @@ background-color: #35e492;
     font-size: 1em;
     line-height: 1.5em;
 }
-
-
-
-
-
-
-
 
 
 /*---------------------------Contact Me---------------------------*/
@@ -1133,7 +1172,9 @@ background-color: #35e492;
     display: block;
 }
 
+
 /* Footeerrr */
+
 footer {
     background-color: #000000;
     color: white;
@@ -1178,7 +1219,9 @@ footer {
     text-decoration: underline;
 }
 
+
 /*---------------------------Footer---------------------------*/
+
 
 /* 
 * {
@@ -1289,6 +1332,7 @@ body {
 
  */
 
+
 /*------------------- Responsive Design on small screen -------------------*/
 
 
@@ -1368,39 +1412,40 @@ body {
 }
 
 
-
-
-
 /* Global Styles */
+
 body {
-    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  /* Hero Section Styles */
-  .hero {
+}
+
+
+/* Hero Section Styles */
+
+.hero {
     display: flex;
-    align-items: center; /* Center items vertically if they are of different heights */
-    justify-content: space-between; /* Space items evenly across the available width */
+    align-items: center;
+    /* Center items vertically if they are of different heights */
+    justify-content: space-between;
+    /* Space items evenly across the available width */
     background-color: #fff;
-    
-    
-  }
-  
-  .hero-content {
-    max-width: 60%; /* Limit the width of the text area */
-    margin-left: 20px; /* Add some space between the text and the image */
-  }
-  
-  .hero-content p {
+}
+
+.hero-content {
+    max-width: 60%;
+    /* Limit the width of the text area */
+    margin-left: 20px;
+    /* Add some space between the text and the image */
+}
+
+.hero-content p {
     font-size: 1.2rem;
     line-height: 1.6;
     margin-bottom: 20px;
-  }
-  
-  .learn-more-btn {
+}
+
+.learn-more-btn {
     display: inline-block;
     background-color: #000;
     color: #fff;
@@ -1409,37 +1454,41 @@ body {
     font-size: 1rem;
     border-radius: 4px;
     transition: background-color 0.3s ease;
-  }
-  
-  .learn-more-btn:hover {
+}
+
+.learn-more-btn:hover {
     background-color: #333;
-  }
-  
-  /* .hero-image img {
+}
+
+
+/* .hero-image img {
     max-width: 100%;
     height: auto;
     border-radius: 50%;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
      */
-    /* Animation properties */
 
-  /* Add animation when image becomes visible */
- 
-  } 
-  /* Supervision Section Styles */
+
+/* Animation properties */
+
+
+/* Add animation when image becomes visible */
+
+
+}
+
+/* Supervision Section Styles */
 .supervision-section {
     padding: 40px;
     background-color: #f2eee7;
-  }
-  
-  .supervision-section h2 {
+}
+.supervision-section h2 {
     text-align: center;
     font-size: 2rem;
     color: #333;
     margin-bottom: 20px;
-  }
-  
-  .supervision-card {
+}
+.supervision-card {
     background-color: #fff;
     border-radius: 8px;
     padding: 20px;
@@ -1447,51 +1496,43 @@ body {
     display: flex;
     align-items: center;
     border: 1px solid rgba(0, 0, 0, 0.1);
-  }
-  
-  .card-content {
+}
+.card-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex: 1;
-  }
-  
-  .supervisor-info {
+}
+.supervisor-info {
     display: flex;
     align-items: center;
     padding-right: 20px;
-  }
-  .supervisor-info h3 {
+}
+.supervisor-info h3 {
     padding-right: 30px;
-  }
-  .supervisor-icon {
+}
+.supervisor-icon {
     background: url('path-to-supervisor-icon.svg') no-repeat center;
     background-size: contain;
     height: 30px;
     width: 30px;
     margin-right: 10px;
-  }
-  
-  .supervision-card h3 {
+}
+.supervision-card h3 {
     font-size: 1.2rem;
     flex: 2;
     margin: 0;
     color: #333;
-  }
-  
-  .supervision-card p {
+}
+.supervision-card p {
     flex: 1;
     margin: 0 10px;
     color: #555;
-  }
+}
 
-  
+/*Research */
 
-
-
-
-  /*Research */
-  /* body {
+/* body {
     margin: 0;
     font-family: Arial, sans-serif;
     display: flex;
@@ -1499,17 +1540,14 @@ body {
     justify-content: center;
     height: 100vh;
 } */
-
 .containerr {
     display: flex;
     width: 100%;
     height: 500px;
-    
 }
 .cardd:hover {
     transform: translateY(-10px);
 }
-
 .cardd {
     display: flex;
     flex-direction: column;
@@ -1520,29 +1558,23 @@ body {
     border-radius: 8px;
     text-align: center;
     transition: background-color 0.3s ease;
-    border:2px solid #0d0d0d;
-    
+    border: 2px solid #0d0d0d;
 }
-
 .cardd:first-child {
     background-color: white;
-    border-right: 10px solid; /* Border to separate the cards */
+    border-right: 10px solid;
+    /* Border to separate the cards */
+    
     margin-left: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
-    
-    
 }
-
 .cardd:last-child {
     background-color: white;
-    
     margin-right: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
-    
 }
-
 .iconn {
     width: 50px;
     height: 50px;
@@ -1550,35 +1582,26 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    <div class="container">
-    <div class="card">
-        <div class="icon master-icon"></div>
-        <h2>Master's research</h2>
-        <p>Describe the product here. Include important features, pricing, and other relevant info. Consider adding an image or video of the product.</p>
-    </div>
-    <br>
-    <div class="card">
-        <div class="icon phd-icon"></div>
-        <h2>PhD research</h2>
-        <p>Describe the product here. Include important features, pricing, and other relevant info. Consider adding an image or video of the product.</p>
-    </div>
-</div>
+    <div class="container"><div class="card"><div class="icon master-icon"></div><h2>Master's research</h2>
+ <p>Describe the product here. Include important features,
+    pricing,
+    and other relevant info. Consider adding an image or video of the product.</p></div><br><div class="card"><div class="icon phd-icon"></div><h2>PhD research</h2><p>Describe the product here. Include important features,
+    pricing,
+    and other relevant info. Consider adding an image or video of the product.</p></div></div>
 }
-
 .master-icon {
-    background-image: url('images/book-removebg-preview.png'); /* Replace with the actual path */
+    background-image: url('images/book-removebg-preview.png');
+    /* Replace with the actual path */
 }
-
 .phd-icon {
-    background-image: url('images/badge-removebg.png'); /* Replace with the actual path */
+    background-image: url('images/badge-removebg.png');
+    /* Replace with the actual path */
 }
-
 .master {
     font-size: 1.5em;
     margin-bottom: 10px;
     color: #333;
 }
-
 .master_p {
     color: #666;
     font-size: 1em;
