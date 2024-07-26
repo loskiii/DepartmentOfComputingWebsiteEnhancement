@@ -28,15 +28,16 @@ ul {
 img {
     max-width: 100%;
 }
+
 body {
     font-family: 'Playfair Display', serif;
     margin: 0;
     padding: 0;
     height: 100%;
     width: 100%;
-  }
+}
+
 body {
-    
     font-size: 16px;
     line-height: 24px;
     background-color: white;
@@ -45,23 +46,88 @@ body {
     background-repeat: no-repeat;
 }
 
-
-/* Global Styles */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
-
-body {
-  font-family: 'Playfair Display', serif;
-  margin: 0;
-  padding: 0;
+@media only screen and (max-width: 767px) {
+    .top-nav {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0px;
+    }
+    .top-nav {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .top-nav ul {
+        flex-direction: row;
+        font-size: 12px;
+        margin-left: 0px;
+        /* Smaller font size */
+    }
+    .top-nav li {
+        margin: 0px;
+        /* Adjust spacing between items */
+    }
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .main-header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        max-height: 400px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        justify-content: center;
+        display: flex;
+    }
+    .main-navigation {
+        margin-top: 10px;
+        padding: 10px 20px;
+        /* Adjust padding to create space */
+    }
+    .main-header .main-navigation .main-nav ul {
+        margin-left: 0;
+    }
+    .main-nav {
+        margin-left: 0px;
+    }
+    .main-nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+    .main-nav ul li {
+        position: relative;
+        margin-bottom: 10px;
+    }
+    .main-nav li a {
+        padding: 10px;
+        /* Adjust padding for mobile view */
+    }
+    .main-nav.active {
+        display: block;
+    }
+    .dropdown-content {
+        position: static;
+        display: none;
+    }
+    .apply-button {
+        margin-top: 10px;
+        /* Adjust margin as needed */
+        /
+    }
 }
 
 
+/* Global Styles */
 
-
-
-  
-
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+body {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+}
 
 .about-area {
     background-color: #ffffff;
@@ -111,6 +177,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 .card {
     background-color: #fff;
     border: 1px solid #ddd;
@@ -140,8 +207,10 @@ body {
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
 }
+
 .card-content {
-    margin-bottom: 40px; /* Space for the card number */
+    margin-bottom: 40px;
+    /* Space for the card number */
 }
 
 .card h2 {
@@ -182,7 +251,6 @@ body {
     text-transform: capitalize;
     align-items: center;
     text-align: center;
-    
 }
 
 .about-content h5 {
@@ -224,11 +292,13 @@ body {
 
 
 /* articles */
-.witty{
+
+.witty {
     background-color: #35e492;
     padding-top: 23px;
-    
 }
+
+
 /* . {
     align-items: center;
     background-color: #bdbdbd;
@@ -450,13 +520,9 @@ body {
     border-color: #c12424;
 }
 
-
-
-
 .about_container {
     text-align: center;
     background-color: #ddd9d9;
-    
 }
 
 .card-container {
@@ -474,8 +540,15 @@ body {
     padding: 20px;
     border-radius: 10px;
     border: 0.5px solid rgb(224, 219, 219);
-    background-color:white;
+    background-color: white;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+@media only screen and (max-width: 767px) {
+    .a_card {
+        height: 195px;
+        padding-top: 5px;
+    }
 }
 
 .a_card p {
@@ -503,13 +576,6 @@ body {
     color: white;
     cursor: pointer;
 }
-
-
-
-
-
-
-
 
 
 /*---------------------------Contact Me---------------------------*/
@@ -564,7 +630,9 @@ body {
     display: block;
 }
 
+
 /* Footeerrr */
+
 footer {
     background-color: #000000;
     color: white;
@@ -610,11 +678,9 @@ footer {
 }
 
 
+/* Supervision Section Styles */
 
-
-
-  /* Supervision Section Styles */
-  .supervised-projects-container {
+.supervised-projects-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -624,9 +690,6 @@ footer {
     margin-bottom: 30px;
     height: 100%;
     width: 100%;
-
-    
-    
 }
 
 .supervised-projects-section {
@@ -645,7 +708,6 @@ footer {
     font-size: 1.8rem;
     font-weight: bold;
     margin-bottom: 20px;
-    
 }
 
 .projects-list {
@@ -667,7 +729,7 @@ footer {
 }
 
 .project-item:hover {
-    background-color:rgb(194, 235, 245) ;
+    background-color: rgb(194, 235, 245);
     transform: scale(1.02);
 }
 
@@ -688,35 +750,12 @@ footer {
     font-style: italic;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .containerr {
     display: flex;
     width: 100%;
     height: 500px;
-    
 }
+
 .cardd:hover {
     transform: translateY(-10px);
 }
@@ -731,27 +770,23 @@ footer {
     border-radius: 8px;
     text-align: center;
     transition: background-color 0.3s ease;
-    border:2px solid #0d0d0d;
-    
+    border: 2px solid #0d0d0d;
 }
 
 .cardd:first-child {
     background-color: white;
-    border-right: 10px solid; /* Border to separate the cards */
+    border-right: 10px solid;
+    /* Border to separate the cards */
     margin-left: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
-    
-    
 }
 
 .cardd:last-child {
     background-color: white;
-    
     margin-right: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
-    
 }
 
 .iconn {
@@ -760,15 +795,16 @@ footer {
     margin-bottom: 20px;
     background-repeat: no-repeat;
     background-position: center;
-    
 }
 
 .master-icon {
-    background-image: url('images/book-removebg-preview.png'); /* Replace with the actual path */
+    background-image: url('images/book-removebg-preview.png');
+    /* Replace with the actual path */
 }
 
 .phd-icon {
-    background-image: url('images/badge-removebg.png'); /* Replace with the actual path */
+    background-image: url('images/badge-removebg.png');
+    /* Replace with the actual path */
 }
 
 .master {
@@ -784,20 +820,6 @@ footer {
     max-width: 300px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .r_section {
     text-align: center;
     width: 100%;
@@ -809,14 +831,13 @@ footer {
     font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 30px;
-   
 }
 
 .r_container {
     display: flex;
     gap: 20px;
     justify-content: center;
-    margin-top:0px ;
+    margin-top: 0px;
     background-color: lightgrey;
 }
 
@@ -868,17 +889,12 @@ footer {
 
 .learn-more-btn:hover {
     background-color: #adff2f;
-    color:#000;
+    color: #000;
 }
 
 .no-border {
     border: none;
 }
-
-
-
-
-
 
 .hero {
     display: flex;
@@ -888,7 +904,8 @@ footer {
     text-align: center;
     padding: 20px;
     background-color: rgb(251, 247, 247);
-    height: auto; /* Full viewport height */
+    height: auto;
+    /* Full viewport height */
 }
 
 .hero-title span {
@@ -896,7 +913,6 @@ footer {
     font-weight: bold;
     display: block;
     color: #009edf;
-    
 }
 
 .hero p {
@@ -905,48 +921,54 @@ footer {
     align-items: center;
 }
 
-
 .hero-content {
     display: flex;
     align-items: center;
 }
+
 .hero-image {
-    width: 300px; 
-    height: 300px; 
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     margin-right: 20px;
     object-fit: cover;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 .image-holder {
     align-items: left;
     margin-left: 10px;
     justify-content: left;
 }
+
 .hero-image:hover {
     transform: scale(1.1);
     box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.5);
 }
+
 .hero-text {
     display: flex;
     flex-direction: column;
 }
 
 
-
 /* Awards and honors */
+
 .awards-honors {
     padding: 20px;
     width: 100%;
     margin: 0 auto;
-    background-color: white; /* Customize the background color as needed */
+    background-color: white;
+    /* Customize the background color as needed */
     align-items: center;
 }
+
 .awards-honors button {
     justify-items: center;
     text-align: center;
 }
+
 .awards-honors h2 {
     font-size: 2rem;
     text-align: center;
@@ -964,7 +986,8 @@ footer {
     align-items: center;
     margin-bottom: 20px;
     padding-bottom: 20px;
-    border-bottom: 1px solid #ddd;  /* Line separator */
+    border-bottom: 1px solid #ddd;
+    /* Line separator */
 }
 
 .awards-honors li span {
@@ -973,18 +996,9 @@ footer {
     line-height: 1.5;
 }
 
-
-
-  
-
-
-
-
-
 .phd-button {
-    background-color:#8ac441 ;
+    background-color: #8ac441;
     justify-content: center;
-   
     align-items: center;
     border: none;
     border-radius: 20px;
@@ -995,23 +1009,18 @@ footer {
     align-self: center;
 }
 
-
-
-
-
-
 .centre {
     align-items: center;
     justify-content: center;
     display: flex;
 }
 
-
 .namee {
-    color: #009edf
-    ;
+    color: #009edf;
 }
 
 .category {
     color: #c12424;
-}ap
+}
+
+ap
