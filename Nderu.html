@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" href="images/JKUAT logo.png" type="image/jkuaticon">
@@ -23,6 +24,11 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/kTcGxLRFW9YYwGQPLbLLJdNLnM9q8Y5+z0x9F+zQj5C7FU/4XfrarD1JTWtazpQX5N1e5n1ZH7rZw==" crossorigin="anonymous" referrerpolicy="no-referrer"
 />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="path/to/serp-api.js"></script>
+
+<script>
+    window.addEventListener('DOMContentLoaded', updateArticleCards);
+  </script>
 </head>
 
 <body>
@@ -325,45 +331,7 @@
 
 
     <!-------------------------- JS -------------------------->
-    <!-- Server.js -->
-    <script>
-        // Fetch the articles for the specific lecturer
-        fetch('/api/lecturers/Dr+lawrence+nderu&oq/articles')
-            .then(response => response.json())
-            .then(articles => {
-                // Get the container for the article cards
-                const articleCardsContainer = document.querySelector('.about_container');
-
-                // Clear any existing article cards
-                articleCardsContainer.innerHTML = '';
-
-                // Loop through the articles and create new card elements
-                articles.forEach((article, index) => {
-                    const card = document.createElement('div');
-                    card.classList.add('a_card');
-                    card.id = `card-${index + 1}`;
-
-                    const cardNumber = document.createElement('h2');
-                    cardNumber.textContent = `${index + 1}.`;
-
-                    const cardTitle = document.createElement('p');
-                    cardTitle.textContent = article.title;
-
-                    const cardLink = document.createElement('a');
-                    cardLink.href = article.url;
-                    cardLink.textContent = 'Read More';
-
-                    card.appendChild(cardNumber);
-                    card.appendChild(cardTitle);
-                    card.appendChild(cardLink);
-
-                    articleCardsContainer.appendChild(card);
-                });
-            })
-            .catch(error => {
-                console.error('Error fetching articles:', error);
-            });
-    </script>
+    
 
     <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
